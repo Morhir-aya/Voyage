@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">TravelWeb</a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+         aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TravelWeb</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="reserv-page">Vols</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="hotel-page">Hôtel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="reslist-page">Réservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="#">Compte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="#" class="login-button">LogOut</a>
+
+    <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Hero section -->
+<section class="hero-section">
+  <div class="banner-main">
+    <div class="container">
+      <div class="text-bg">
+        <h1></h1><br><br>
+        <div class="container">
+          <form class="main-form">
+            <h3>Choisissez votre voyage</h3>
+            <div class="row">
+              <div class="col-md-9">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Départ</label>
+                    <select class="form-control" name="Any">
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Arrivé</label>
+                    <select class="form-control" name="Any">
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Horaire</label>
+                    <input class="form-control" placeholder="Any" type="time" name="Any">
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Date</label>
+                    <input class="form-control" placeholder="Any" type="date" name="Any">
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Nombre de voyageurs</label>
+                    <input class="form-control" placeholder="00.0" type="number" name="00.0">
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <label>Aeroport</label>
+                    <select class="form-control" name="Any">
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                <a href="#">Chercher</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Hero section -->
+
+<!--Items section-->
+<div class="card-container">
+  <div class="card">
+    <img src="../../assets/images/1.jpg" alt="#">
+    <div class="card-content">
+      <h3>Holiday Tour</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam in rerum eum temporibus repellat sapiente omnis laudantium, quo cumque, voluptatem voluptatibus explicabo minima? Voluptate ex tempora dolore eaque doloribus?</p>
+      <a href="" class="btn">Réserver</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../../assets/images/2.jpg" alt="#">
+    <div class="card-content">
+      <h3>New York</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam in rerum eum temporibus repellat sapiente omnis laudantium, quo cumque, voluptatem voluptatibus explicabo minima? Voluptate ex tempora dolore eaque doloribus?</p>
+      <a href="" class="btn">Réserver</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../../assets/images/3.jpg" alt="#">
+    <div class="card-content">
+      <h3>London</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam in rerum eum temporibus repellat sapiente omnis laudantium, quo cumque, voluptatem voluptatibus explicabo minima? Voluptate ex tempora dolore eaque doloribus?</p>
+      <a href="" class="btn">Réserver</a>
+    </div>
+  </div>
+</div>
+<!--End Items section-->
+
+<!-- Footer -->
+<div class="footerContainer">
+  <div class="socialIcons">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-google-plus"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="footerNav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="about-page">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Our Team</a></li>
+    </ul>
+  </div>
+  <div class="footerBottom">
+    <p>copyright &copy;2023</p>
+  </div>
+</div>
+<!-- End Footer -->
+
+</body>
+
+</html>

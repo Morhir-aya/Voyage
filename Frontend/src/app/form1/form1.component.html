@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Creation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand me-auto" href="#">TravelWeb</a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+         aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TravelWeb</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="reserv-page">Vols</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="hotel-page">Hôtel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="reslist-page">Réservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="userSpace-page">Compte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="signup-page" class="login-button">SignUp</a> &nbsp;&nbsp;
+    <a href="login-page" class="login-button">Login</a>
+
+    <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+<!-- Hero section -->
+<section class="hero-section">
+  <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+    <!-- Form starts here -->
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Détails Réservation</span></div>
+        <form action="#">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="number" placeholder="Nombre de personne" required>
+          </div>
+          <div class="row">
+            <i class="fa-solid fa-bed"></i>
+            <input type="number" placeholder="Nombre de chambres" required>
+          </div>
+          <div class="row" required>
+            <i class="fa-solid fa-bed"></i>
+            <select id="country" name="country" >
+              <option value="australia">Type de chambres</option>
+              <option value="Simple">Simple </option>
+              <option value="Double">Double </option>
+              <option value="Triple">Triple </option>
+              <option value="Quadruple">Quadruple </option>
+              <option value="Deluxe + Balcon">Deluxe + Balcon </option>
+            </select>
+          </div>
+          <div class="row button">
+            <input type="submit" value="Verifier">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Form ends here -->
+  </div>
+</section>
+<!-- End Hero section -->
+
+
+<!-- Footer -->
+<div class="footerContainer">
+  <div class="socialIcons">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-google-plus"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="footerNav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="about-page">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Our Team</a></li>
+    </ul>
+  </div>
+  <div class="footerBottom">
+    <p>copyright &copy;2023</p>
+  </div>
+</div>
+<!-- End Footer -->
+</body>
+
+</html>
