@@ -13,7 +13,6 @@ import {UserSpaceComponent} from "./user-space/user-space.component";
 import {VolComponent} from "./vol/vol.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "home-page", pathMatch: "full" },
   { path: "home-page", component: HomePageComponent },
   { path: "login-page", component: LoginComponent },
   { path: "reserv-page", component: VolComponent },
